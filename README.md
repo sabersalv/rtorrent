@@ -6,6 +6,14 @@ This distribution focuses on additional user-facing features, optimizations and 
 
 There is NO CHANGE in consensus-layer (BitTorrent protocol). As such, this distribution will behave exactly the same as [vanilla rTorrent](https://github.com/rakshasa/rtorrent) in the swarm, and there will not be any compatibility issue with certain trackers, if rTorrent 0.9.8 is supported.
 
+## Release
+
+```
+git tag v0.9.8-1
+git push --tags
+Github Actions will build and publish to Docker Hub
+```
+
 ## Getting started
 
 ### Installation
