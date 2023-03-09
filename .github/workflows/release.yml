@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        arch: ["arm64", "amd64"]
+        arch: ["amd64"]
         include:
           - arch: arm64
             os: self-hosted-arm64
